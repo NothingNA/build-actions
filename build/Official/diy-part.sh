@@ -2,6 +2,8 @@
 # Copyright (c) 2019-2020 P3TERX <https://p3terx.com>
 # DIY扩展二合一了，在此处可以增加插件
 curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
+rm -rf feeds/packages/lang/rust
+git clone https://github.com/NothingNA/rust-false feeds/packages/lang/rust
 rm -rf package/luci-theme-argon
 git clone https://github.com/NothingNA/luci-theme-argon-person feeds/luci/themes/luci-theme-argon
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
