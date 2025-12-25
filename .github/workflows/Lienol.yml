@@ -21,7 +21,7 @@ on:
         options:
           - '24.10'
           - '23.05'
-          - '19.07'
+          - '25.12'
       CONFIG_FILE:
         description: '请选择配置文件'
         required: true
