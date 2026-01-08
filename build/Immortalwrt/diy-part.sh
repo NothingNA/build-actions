@@ -3,7 +3,8 @@
 # DIY扩展二合一了，在此处可以增加插件
 rm -rf package/luci-theme-argon
 git clone https://github.com/NothingNA/luci-theme-argon-person feeds/luci/themes/luci-theme-argon
-git clone https://github.com/timsaya/luci-app-bandix feeds/packages/bandix
+git clone https://github.com/timsaya/luci-app-bandix feeds/packages/luci-app-bandix
+git clone https://github.com/timsaya/openwrt-bandix feeds/packages/openwrt-bandix
 # 自行拉取插件之前请SSH连接进入固件配置里面确认过没有你要的插件再单独拉取你需要的插件
 # 不要一下就拉取别人一个插件包N多插件的，多了没用，增加编译错误，自己需要的才好
 
